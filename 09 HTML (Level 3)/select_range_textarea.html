@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="/server">
+        <div>
+            Choose Your Profession
+            <!-- URL when Submit is clicked(after selecting developer): http://127.0.0.1:3000/server?profession=dev -->
+            <select name="profession" id="profession">
+                <option>Select your option</option>
+                <option value="stu">Student</option>
+                <option value="dev" selected>Developer</option>
+                <option value="coder">Coder</option>
+                <option value="other">Other</option>
+            </select>
+        </div>
+
+        <!-- URL Will be: http://127.0.0.1:3000/server?profession=dev&vol=75 -->
+        <label for="vol">Select Volume Level: </label>
+        <input type="range" id="vol" min="0" max="100" name="vol" step="5" value="70"/>
+        <!-- Value attribute sets default value here -->
+
+        <br>
+        <div>
+            <!-- by default size: 2rows and 20 columns -->
+            <label for="feedback">Provide Feedback: </label>
+            <textarea id="feedback" name="feedback" rows="5" cols="30" placeholder="write feedback here" ></textarea>
+        </div>
+        <button>Submit</button>
+    </form>
+</body>
+</html>

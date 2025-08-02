@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="/server">
+
+        <!-- URL When you Untick after submission: http://127.0.0.1:3000/server? -->
+        <!-- URL When you tick after submission: http://127.0.0.1:3000/server?age=on -->
+        <input type="checkbox" name="age" id="age"/>
+        <label for="age">I am 18+</label>
+        <div>
+            <!-- In all this cases the name attribute is same -->
+             <!-- URL when value if added(suppose for banana): http://127.0.0.1:3000/server?fruit=mango? -->
+            <input type="radio" name="fruit" id="apple" value="apple">
+            <label for="apple">Apple</label>
+            <input type="radio" name="fruit" id="mango" value="mango">
+            <label for="mango">Mango</label>
+            <input type="radio" name="fruit" id="banana" value="banana">
+            <label for="banana">Banana</label>
+        </div>
+
+        <div>
+            <input type="checkbox" name="sub" id="math" value="math"/>
+            <label for="math">Math</label>
+            <input type="checkbox" name="sub" id="science" value="science"/>
+            <label for="science">Science</label>
+            <input type="checkbox" name="sub" id="english" value="english"/>
+            <label for="english">English</label>
+        </div>
+        <button>Submit</button>      
+    </form>
+</body>
+</html>

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- Button outside the form  -->
+    <button>Hello</button>
+    <form action="/action">
+        <label>
+            Username:
+            <input type="text" placeholder="Enter Username"/>
+        </label>
+
+        <br />
+
+        <label>
+            Password:
+            <input type="password" placeholder="Enter Password"/>
+        </label>
+
+        <br />
+
+        <!-- Classical Approach -->
+        <div>
+            <label for="username">Enter Username: </label>
+            <input type="text" id="username" placeholder="Enter Username"/>
+        </div>
+        
+        <div>
+            <label for="password">Enter Password:</label>
+            <input type="password" id="password" placeholder="Enter Password"/>
+        </div>
+
+        <div>
+            <label for="age">Age:</label>
+            <input type="number" id="age"placeholder="Enter Age">
+        </div>
+        <button>Submit</button>
+        <!-- after submit it will show /action which is written in the action attribute -->
+        <button>Hello</button>
+
+        <br>
+        <button type="submit">Type 1</button>
+        <!-- Now it will not submit  -->
+        <button type="button">Type 2</button>
+        <!-- It refresh all data in the form  -->
+        <button type="reset">Reset</button>
+
+        <br>
+
+        <!-- another way -->
+        <input type="button" value="click me">
+        <input type="submit" /> <!--By default sumbit is written on it-->
+        <input type="submit" value="click me but2" />
+
+    </form>
+
+    
+
+</body>
+</html>
