@@ -1,0 +1,14 @@
+/* descendent selector Score: 002*/
+div p {
+    background-color: black;
+}
+
+/* class selector Score: 010 */
+.para{
+    background-color: blue;
+}
+
+/* element selector Score: 001*/
+p{
+    background-color: green;
+}

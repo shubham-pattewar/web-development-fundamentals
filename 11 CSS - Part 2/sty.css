@@ -1,0 +1,22 @@
+/* Inheritance ==> Property of div is followed by h2 and form  */
+/* div --> form --> label  */
+/* Input boxes,button by default does not support inheritance */
+div{
+    background-color: yellow;
+}
+
+form{
+    background-color: coral;
+}
+
+input{
+    background-color: inherit;
+}
+
+button {
+    background-color: inherit;
+}
+
+button:hover{
+    background-color: palegreen;
+}

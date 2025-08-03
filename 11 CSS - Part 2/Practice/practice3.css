@@ -1,0 +1,15 @@
+/* Score: 021  */
+div.greetDiv .greet{
+    color: green;
+}
+
+/* Score: 021  */
+/* Follows Cascading Property(Jo baad me ayega wo jitega) */
+.greetDiv p.greet{
+    color: blue;
+}
+
+/* Score: 020 */
+.greetDiv .greet{
+    color: red;
+}

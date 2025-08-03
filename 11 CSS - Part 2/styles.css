@@ -1,0 +1,136 @@
+/* Highest Priority  */
+h3{
+    background-color: antiquewhite !important;
+}
+
+/* Universal Selector  */
+* {
+    font-family: "Courier New";
+}
+
+/* Element Selector  */
+h1,h3{
+    color: #b92b27;
+}
+
+/* ID Selector  */
+#login{
+    background-color: white;
+}
+
+#signup{
+    background-color:#b92b27;
+    color: white;
+}
+
+/* Class Selector  */
+.upvote{
+    background-color:green;
+    color: aliceblue;
+}
+
+/* descendent selector  */
+/* Post class ke andar jitne bhi anchor tags hai unko select karo  */
+/* Use can use multiple levels here  */
+.post a{
+    color:purple;
+    background-color: yellow;
+}
+
+nav ul li a{
+    color: hotpink;
+}
+
+p+h3{
+    text-decoration: underline;
+}
+
+.upvote + button{
+    background-color: cornflowerblue;
+    color: darkblue;
+}
+
+div > input{
+    background-color: darksalmon;
+}
+
+/* Attribute selector  */
+input[type="text"]{
+    color: green;
+}
+
+input[type="password"]{
+    color: red;
+}
+
+/* color kon si bhi type ko apply hoga */
+input[type]{
+    background-color: ghostwhite;
+}
+
+
+/* You will not see this property applicable to login and signup button 
+This is due to specificity (defines the priority of the CSS Property */
+button:hover {
+    background-color: black;
+    color: white;
+}
+
+h3:hover{
+    text-decoration: none;
+}
+
+/* background color of login and signup doesnt changes and 
+ID has more priority */
+button:active{
+    background-color: hotpink;
+    color: black;
+}
+
+p:active {
+    font-weight: bold;
+    color: green;
+}
+
+/* Sibling Relation  */
+input[type="radio"]:checked + label{
+    color: red;
+    font-weight: bold;
+}
+
+/* Only 2nd no. post will be colored 
+div:nth-of-type(2){
+    background-color: blanchedalmond;
+} */
+
+/* Every post will be colored 
+div:nth-of-type(n){
+    background-color: blanchedalmond;
+} */
+
+/* Every 2nd no. post will be colored  */
+div:nth-of-type(2n){
+    background-color: blanchedalmond;
+}
+
+h1::first-letter{
+    color: darkviolet;
+}
+
+p::first-line{
+    color:darkviolet;
+}
+
+/* When you select the paragraph the color of the paragraph changes  */
+p::selection{
+    background-color: limegreen;
+}
+
+/* Cascading  */
+h3{
+    background-color: yellow;
+}
+
+h3{
+    background-color: skyblue;
+}
