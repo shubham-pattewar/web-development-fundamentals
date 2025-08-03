@@ -1,0 +1,40 @@
+h1{
+    text-align: center;
+    text-decoration: purple underline;
+    letter-spacing: 5px;
+    font-size: 50px;
+    font-family: arial;
+}
+
+/* Text align property is wrt parent element not wrt the document */
+/* Here is the example */
+/* Even the text alignment is right we can see the heading at center  */
+/* h1{
+    text-align: center;
+    border: solid;
+    width: 50%;
+} */
+
+
+/* If a particular font family is not present on the browser then it will show default font */
+h3{
+    text-align: right;
+    text-decoration: red line-through;
+}
+
+p{
+    text-align: justify;
+    font-weight: 400;
+    line-height: 2;
+    
+}
+
+h2{
+    font-weight: 800;
+    text-decoration: wavy overline;
+    font-family: impact;
+}
+
+a{
+    text-decoration: none;
+}
