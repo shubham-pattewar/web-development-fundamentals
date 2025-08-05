@@ -1,0 +1,13 @@
+div{
+    height: 200px;
+    width: 200px;
+    background-color: rgba(77, 255, 0, 0.5);
+    /* background-color: #4dff00a1; */
+}
+
+#opacity{
+    background-color: #ffa511;
+    /* When opacity is set to 0 the div and button will also get diappear  */
+    opacity:0.5;
+}
+

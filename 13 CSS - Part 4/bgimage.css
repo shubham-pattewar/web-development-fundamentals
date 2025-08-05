@@ -1,0 +1,12 @@
+div{
+    width: 400px;
+    height: 600px;
+    background-color: #7aa874;
+    margin: 10px auto;
+    background-image: url("./rose.jpg"); /*The image will not fit properly*/
+    background-size: cover;
+    color: white;
+}
+h1{
+    color: palevioletred;
+}

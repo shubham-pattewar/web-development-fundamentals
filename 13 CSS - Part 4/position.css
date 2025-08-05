@@ -1,0 +1,45 @@
+div{
+    height: 100px;
+    width: 100px;
+    background-color: green;
+    text-align: center;
+    border: 3px solid black;
+    margin: 20px;
+    display: inline-block;
+}
+
+#static{
+    background-color: yellow;
+    position: static;
+
+    /* No Effect as position is static */
+    top: 100px;
+    left: 100px
+}
+
+#relative{
+    background-color: yellow;
+    position: relative;
+
+    /* Position relative to current location */
+    top: 100px;
+    left: 100px
+}
+
+#absolute{
+    background-color: yellow;
+    position: absolute;
+
+    /* Measurement is taken from top (parent: body of document) */
+    top: 100px;
+    left: 100px
+}
+
+#fixed{
+    background-color: pink;
+    position: fixed;
+
+    /* When you scroll the block will move wrt viewport */
+    top: 100px;
+    left: 100px
+}
