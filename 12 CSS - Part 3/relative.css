@@ -1,0 +1,20 @@
+h1{
+    border: 2px solid black;
+    /* Occupy 1/3 rd of the screen  */
+    width: 33.33%;
+}
+
+#outer{
+    height: 400px;
+    width: 400px;
+    background-color: pink;
+    margin: 50px;
+}
+
+#inner{
+    height: 100px;
+    width: 100px;
+    background-color: cornflowerblue;
+    /* 10 % 400 is 40px left  */
+    margin-left: 10%;
+}

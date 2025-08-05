@@ -1,0 +1,28 @@
+/* h2 will behave like an inline element  */
+/* h2{
+    display: inline;
+    background-color: pink;
+} */
+
+/* span will behave like a block element  */
+/* span{
+    display: block;
+    background-color: yellowgreen;
+} */
+
+span{
+
+    /* background-color: limegreen; */
+    border: 2px solid black;
+    /* height and width doesn't gets implemented (browser ignores it) */
+    height: 100px;
+    width: 200px;
+
+    /* Padding is merged with the span  */
+    padding: 50px; /*Left and Right only*/
+    margin: 20px; /*Implements on left and right side only*/
+
+    /* The text in left and right side of the inline block follows padding but not top and bottom side  */
+
+}
+

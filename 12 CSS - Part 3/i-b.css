@@ -1,0 +1,18 @@
+div{
+    height: 200px;
+    width: 200px;
+    background-color: greenyellow;
+    border: 2px solid black;
+    margin: 5px;
+
+    /* It will show black lines ==> height and margin are not supported by the inline  */
+    /* display: inline; */
+
+    /* solution for this is inline-block  */
+    display: inline-block;
+}
+
+#third{
+    /* Disappear a particular element from the screen  */
+    display: none;
+}
