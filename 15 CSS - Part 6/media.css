@@ -1,0 +1,45 @@
+h1{
+    background-color: yellow;
+    border: 2px solid black;
+}
+
+
+/* min-width ==> Min or above */
+/* max-width ==> Max or below */
+
+@media(width: 400px){
+    h1{
+        background-color: red;
+        color: white;
+    }
+    div{
+        height: 400px;
+        width: 400px;
+        background-color: thistle;
+    }
+}
+
+@media(min-width: 400px){
+    h1{
+        background-color: cornflowerblue;
+    }
+}
+
+@media(max-width: 500px){
+    h1{
+        background-color: pink;
+    }
+}
+
+@media (min-width: 400px) and (max-width: 600px){
+    h1{
+        background-color: purple;
+    }
+}
+
+@media(orientation: landscape){
+    h1{
+        background-color: aqua;
+        color: brown;
+    }
+}

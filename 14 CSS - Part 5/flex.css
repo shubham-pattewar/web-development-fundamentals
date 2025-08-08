@@ -1,0 +1,44 @@
+#container{
+    height: 300px;
+    width: 80%;
+    background-color: azure;
+    margin: 10px auto;
+    border: 2px solid black;
+    /* bydefault direction row  */
+    display: flex;
+    /* Event though the height is greater but they will fit into the container */
+    /* Height and width will get ignores(Works with the container) */
+    flex-direction: row;
+    /* justify-content: space-evenly; */
+    /* flex-wrap: wrap; */
+    /* align-items: baseline; */
+    justify-content: flex-start;
+    align-content: flex-start;
+}
+
+#orange{
+    align-self: flex-start;
+    /* flex-basis: 50px; */
+    /* flex-grow: 1; */
+    flex: 2 2 100px;
+}
+
+#blue{
+    /* flex-basis: 400px; */
+    /* flex-grow: 2; */
+    /* max-width: 400px; */
+    flex-grow: 2;
+}
+
+h1{
+    text-align: center;
+}
+
+#container div{
+    height: 100px;
+    width: 50px;
+    color: white;
+    text-align: center;
+    font-size: 1.5em;
+    
+}

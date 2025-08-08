@@ -1,0 +1,67 @@
+.box{
+    height: 100px;
+    width: 300px;
+    background-color: pink;
+    /* animation-name: coloranim;
+    animation-duration: 2s;
+    animation-timing-function: ease-in;
+    animation-delay: 0;
+    animation-iteration-count: infinite;
+    animation-direction: alternate; */
+
+    /* Shorthand  */
+    animation: coloranim2 4s ease-in 0s infinite alternate;
+}
+
+/* It is Just a Template */
+@keyframes fontanim{
+    form{font-size: 20px;}
+    to{font-size: 40px;}
+}
+
+@keyframes coloranim{
+    from{
+        background-color: royalblue;
+    }
+    to{
+        background-color: blueviolet;
+    }
+}
+
+@keyframes widthanim{
+    from{
+        width: 10px;
+    }
+    to {
+        width: 200px;
+    }
+}
+
+/* you can also combine various properties  */
+@keyframes combine{
+    form{
+        font-size: 20px;
+        background-color: royalblue;
+    }
+    to{
+        font-size: 40px;
+        background-color: blueviolet;
+        border-radius: 15px;
+    }
+}
+
+@keyframes coloranim2{
+    0%{
+        background-color: royalblue;
+    }
+    50%{
+        background-color: blueviolet;
+    }
+    80%{
+        background-color: red;
+    }
+    100%{
+        background-color: palegreen;
+    }
+}
+
